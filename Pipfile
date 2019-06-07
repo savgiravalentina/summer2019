@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+certifi = "==2019.3.9"
+pipenv = "==2018.11.26"
+shell = "==1.0.1"
+virtualenv = "==16.6.0"
+virtualenv-clone = "==0.5.3"
+python-telegram-bot = "*"
+
+[requires]
+python_version = "3.7"
